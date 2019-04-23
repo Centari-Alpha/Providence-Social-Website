@@ -1,0 +1,58 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-image: url(EntreesWithSalad.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+p h5 {
+
+}
+.pageContainer {
+	display: flex;
+/*	justify-content: center;*/
+	align-items: center;
+	flex-direction: column;
+}
+
+.logoBox {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	height: 105px;
+	width: 200px;
+}
+
+.cardContainer {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	grid-gap: 60px;
+	align-content: center;
+/*	align-items: center;*/
+	margin-top: 175px;
+}
+
+.card {
+	padding: 10%;
+	background-color: #1b1401ab;
+}
+
+
+/*#cardimg {
+	padding: 5px;
+	border: solid white;
+	align-content: center;
+	margin-left: 3%;
+}*/
+
+footer {
+	margin-top: 6em;
+	margin-bottom: 0px;
+}
