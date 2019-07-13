@@ -61,6 +61,22 @@ p h5 {
 	width: 55px;
 }
 
+.staticCarouselBox {
+	height: 300px;
+	width: 600px;
+}
+
+.carousel-item {
+	height: 300px;
+	width: 500px;
+}
+#carouselExampleFade{
+	display: flex;
+	margin-top: 50px;
+	padding: 10%;
+	background-color: #1b1401ab;
+}
+
 #cardimg {
 	height: 250px;
 	width: 225px;
@@ -72,6 +88,6 @@ p h5 {
 footer {
 	display: flex;
 	justify-content: center;
-	margin-top: 6em;
+	margin-top: 15rem;
 	margin-bottom: 0px;
 }
