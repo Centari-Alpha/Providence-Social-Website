@@ -4,7 +4,7 @@
 	background-image: url(EntreesWithSalad.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100vh;
+	size: auto;
 	color: white;
 }
 
@@ -12,9 +12,14 @@ h2 {
 	margin-top: 10px;
 }
 
-p h5 {
+h5 {
 	padding: 10%;
 }
+
+p {
+	/*padding-bottom: 20px;*/
+}
+
 .pageContainer {
 	display: flex;
 	align-items: center;
@@ -24,7 +29,6 @@ p h5 {
 .logoBox {
 	display: flex;
 	justify-content: center;
-/*	background-color: black;*/
 	background-color: #1b1401ab;
 	height: 105px;
 	width: 200px;
@@ -46,7 +50,7 @@ p h5 {
 .card:hover {
 	transition: .5s ease-in-out;
 	box-shadow: .5rem .5rem #1b1402ab;
-	padding: 8%;
+/*	margin-top: 5%*/
 }
 
 .SMLogo {
@@ -71,6 +75,7 @@ p h5 {
 	height: 300px;
 	width: 500px;
 }
+
 #carouselExampleFade{
 	display: flex;
 	margin-top: 50px;
